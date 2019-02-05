@@ -1,7 +1,9 @@
 ﻿// Import variables
-$navbar-bg: #1C1C1C;
+@import "_variables";
 
 @-moz-document regexp("https?:\/\/(www\.)?synonim\.net.*") {
+
+    @import "_components/_containers";
 
     #fx {
         background-color: $navbar-bg;

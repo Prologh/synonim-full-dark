@@ -1,1 +1,1 @@
-﻿@-moz-document regexp("https?:\/\/(www\.)?synonim\.net.*"){#fx{background-color:#1C1C1C;}#fx a{border:none;}#fx a:hover{border:none;}}
+﻿@-moz-document regexp("https?:\/\/(www\.)?synonim\.net.*"){body{background:#131313;}#fx{background-color:#1C1C1C;}#fx a{border:none;}#fx a:hover{border:none;}}

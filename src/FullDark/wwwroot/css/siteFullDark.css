@@ -1,4 +1,7 @@
-﻿@-moz-document regexp("https?:\/\/(www\.)?synonim\.net.*") {
+﻿/* ### Variables ### */
+@-moz-document regexp("https?:\/\/(www\.)?synonim\.net.*") {
+  body {
+    background: #131313; }
   #fx {
     background-color: #1C1C1C; }
     #fx a {
