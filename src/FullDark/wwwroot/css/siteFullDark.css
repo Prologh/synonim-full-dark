@@ -1,4 +1,4 @@
-﻿@-moz-document regexp("https?://www\\.synonim\\.net/.*") {
+﻿@-moz-document regexp("https?:\/\/(www\.)?synonim\.net.*") {
   #fx {
     background-color: #1C1C1C; }
     #fx a {
