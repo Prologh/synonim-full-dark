@@ -1,0 +1,18 @@
+﻿/* ### Navbar ### */
+
+#fx {
+    background-color: $navbar-bg;
+}
+
+/* Navbar links */
+
+#fx {
+
+    & a {
+        border: none;
+
+        &:hover {
+            border: none;
+        }
+    }
+}

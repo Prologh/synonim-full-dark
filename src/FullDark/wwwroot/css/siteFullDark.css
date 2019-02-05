@@ -1,10 +1,13 @@
 ﻿/* ### Variables ### */
 @-moz-document regexp("https?:\/\/(www\.)?synonim\.net.*") {
+  /* ### Containers ### */
   body {
     background: #131313; }
+  /* ### Navbar ### */
   #fx {
-    background-color: #1C1C1C; }
-    #fx a {
-      border: none; }
-      #fx a:hover {
-        border: none; } }
+    background-color: #272727; }
+  /* Navbar links */
+  #fx a {
+    border: none; }
+    #fx a:hover {
+      border: none; } }
