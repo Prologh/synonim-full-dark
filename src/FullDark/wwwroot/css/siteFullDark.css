@@ -3,6 +3,13 @@
   /* ### Containers ### */
   body {
     background: #131313; }
+  /* ### Variables ### */
+  a,
+  a[href] {
+    color: #255EAE; }
+    a:hover,
+    a[href]:hover {
+      color: #4884d8; }
   /* ### Navbar ### */
   #fx {
     background-color: #272727; }

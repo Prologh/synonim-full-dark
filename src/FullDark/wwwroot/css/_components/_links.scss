@@ -1,0 +1,10 @@
+﻿/* ### Variables ### */
+
+a,
+a[href] {
+    color: $link-color;
+
+    &:hover {
+        color: $link-hover-color;
+    }
+}
