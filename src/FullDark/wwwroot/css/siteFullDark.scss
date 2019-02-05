@@ -1,0 +1,17 @@
+﻿// Import variables
+$navbar-bg: #1C1C1C;
+
+@-moz-document regexp("https?://www\\.synonim\\.net/.*") {
+
+	#fx {
+		background-color: $navbar-bg;
+
+		& a {
+			border: none;
+
+			&:hover {
+				border: none;
+			}
+		}
+	}
+}
