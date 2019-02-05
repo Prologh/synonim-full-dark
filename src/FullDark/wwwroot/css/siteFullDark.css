@@ -3,13 +3,16 @@
   /* ### Containers ### */
   body {
     background: #131313; }
+  #page,
+  #mdef {
+    background: #1C1C1C; }
   /* ### Variables ### */
   a,
   a[href] {
-    color: #255EAE; }
+    color: #3275d4; }
     a:hover,
     a[href]:hover {
-      color: #4884d8; }
+      color: #72a0e1; }
   /* ### Navbar ### */
   #fx {
     background-color: #272727; }

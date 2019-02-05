@@ -31,5 +31,5 @@ $text-light-color: lighten($text-base-color, 30%);
 $text-dark-color: darken($text-base-color, 10%);
 
 // Links color
-$link-color: $brand-info;
+$link-color: lighten($brand-info, 10%);
 $link-hover-color: lighten($link-color, 15%);

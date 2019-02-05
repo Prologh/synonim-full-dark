@@ -1,1 +1,1 @@
-﻿@-moz-document regexp("https?:\/\/(www\.)?synonim\.net.*"){body{background:#131313;}a,a[href]{color:#255EAE;}a:hover,a[href]:hover{color:#4884d8;}#fx{background-color:#272727;}#fx a{border:none;}#fx a:hover{border:none;}}
+﻿@-moz-document regexp("https?:\/\/(www\.)?synonim\.net.*"){body{background:#131313;}#page,#mdef{background:#1C1C1C;}a,a[href]{color:#3275d4;}a:hover,a[href]:hover{color:#72a0e1;}#fx{background-color:#272727;}#fx a{border:none;}#fx a:hover{border:none;}}
