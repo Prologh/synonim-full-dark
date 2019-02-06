@@ -24,6 +24,9 @@
     border: none; }
     #fx a:hover {
       border: none; }
+  /* ### Tables ### */
+  table tr td {
+    width: 100%; }
   /* ### Typography ### */
   /* Headers */
   h1 {
