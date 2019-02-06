@@ -5,6 +5,24 @@
   #mdef,
   #bot {
     background: #1C1C1C; }
+  /* ### Controls ### */
+  textarea, textarea {
+    border: 1px solid #666;
+    min-height: 80px !important;
+    height: auto;
+    resize: vertical; }
+  input[type=text],
+  input[type=email],
+  input[type=number],
+  input[type=password],
+  input[type=tel],
+  textarea {
+    color: #aaaaaa;
+    background: #343434; }
+  #fx input[type=text] {
+    color: #bebebe;
+    background: #414141;
+    border-color: #999999; }
   /* ### Variables ### */
   a,
   a[href] {

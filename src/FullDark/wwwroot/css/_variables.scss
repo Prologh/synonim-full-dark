@@ -49,3 +49,22 @@ $header-color-map:
     4 lighten($text-base-color, 25%),
     5 lighten($text-base-color, 20%),
     6 lighten($text-base-color, 15%);
+
+// Border colors
+$border-base-color: $gray;
+$border-light-color: lighten($border-base-color, 20%);
+$border-dark-color: darken($border-base-color, 20%);
+
+// Border width
+$border-base-width: 1px;
+
+// Border style
+$border-base-style: solid;
+
+// Controls, inputs, textareas
+$control-base-color: lighten($text-base-color, 10%);
+$control-base-bg: lighten($box-light-bg, 5%);
+
+// Labels
+$label-base-color: lighten($text-base-color, 5%);
+$label-base-bg: $box-bg;

@@ -4,6 +4,7 @@
 @-moz-document regexp("https?:\/\/(www\.)?synonim\.net.*") {
 
     @import "_components/_containers";
+    @import "_components/_controls";
     @import "_components/_links";
     @import "_components/_navbar";
     @import "_components/_tables";
