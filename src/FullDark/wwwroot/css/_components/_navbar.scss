@@ -1,7 +1,13 @@
 ﻿/* ### Navbar ### */
 
+/* Main navbar*/
 #fx {
     background-color: $navbar-bg;
+}
+
+/* Upper login bar, above navbar */
+#top {
+    background: lighten($navbar-bg, 5%);
 }
 
 /* Navbar links */

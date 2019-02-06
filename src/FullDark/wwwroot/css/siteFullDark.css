@@ -13,8 +13,12 @@
     a[href]:hover {
       color: #72a0e1; }
   /* ### Navbar ### */
+  /* Main navbar*/
   #fx {
     background-color: #272727; }
+  /* Upper login bar, above navbar */
+  #top {
+    background: #343434; }
   /* Navbar links */
   #fx a {
     border: none; }
