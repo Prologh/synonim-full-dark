@@ -21,6 +21,7 @@
     #fx a:hover {
       border: none; }
   /* ### Typography ### */
+  /* Headers */
   h1 {
     color: #f6f6f6; }
   h2 {
@@ -30,9 +31,9 @@
   h4 {
     color: #d0d0d0; }
   h5 {
-    color: #b6b6b6; }
+    color: #c3c3c3; }
   h6 {
-    color: #aaaaaa; }
+    color: #b6b6b6; }
   html {
     background: #1C1C1C; }
   body {

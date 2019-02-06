@@ -1,25 +1,10 @@
 ﻿/* ### Typography ### */
 
-h1 {
-    color: $header-1-color;
+/* Headers */
+@each $header-prefix, $header-color in $header-color-map {
+    h#{$header-prefix} {
+        color: $header-color;
+    }
 }
 
-h2 {
-    color: $header-2-color;
-}
 
-h3 {
-    color: $header-3-color;
-}
-
-h4 {
-    color: $header-4-color;
-}
-
-h5 {
-    color: $header-5-color;
-}
-
-h6 {
-    color: $header-6-color;
-}

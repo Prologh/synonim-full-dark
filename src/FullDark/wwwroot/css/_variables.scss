@@ -41,3 +41,11 @@ $header-3-color: lighten($text-base-color, 30%);
 $header-4-color: lighten($text-base-color, 25%);
 $header-5-color: lighten($text-base-color, 15%);
 $header-6-color: lighten($text-base-color, 10%);
+
+$header-color-map:
+    1 lighten($text-base-color, 40%),
+    2 lighten($text-base-color, 35%),
+    3 lighten($text-base-color, 30%),
+    4 lighten($text-base-color, 25%),
+    5 lighten($text-base-color, 20%),
+    6 lighten($text-base-color, 15%);
