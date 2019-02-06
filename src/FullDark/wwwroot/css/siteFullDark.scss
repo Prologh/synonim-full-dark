@@ -6,4 +6,10 @@
     @import "_components/_containers";
     @import "_components/_links";
     @import "_components/_navbar";
+    @import "_components/_typography";
+
+    body {
+        background: $body-bg;
+        color: $text-base-color;
+    }
 }
