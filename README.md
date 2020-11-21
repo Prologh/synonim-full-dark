@@ -17,7 +17,7 @@ Bootstrap alike, based on few colors (see [_variables.scss](https://github.com/P
 
 Download now the latest release from [userstyles.org](https://userstyles.org/styles/168594/synonim-full-dark) or install it directly from source code file using browser extension [Stylus](https://add0n.com/stylus.html):
 
-[![Install with Stylus](https://img.shields.io/badge/Install%20with%20-Stylus-green.svg)](https://github.com/Prologh/tekstowo-full-dark/raw/master/dist/tekstowo-full-dark.user.styl)
+[![Install with Stylus](https://img.shields.io/badge/Install%20with%20-Stylus-green.svg)](https://github.com/Prologh/synonim-full-dark/raw/master/dist/synonim-full-dark.user.styl)
 
 ## License
 
