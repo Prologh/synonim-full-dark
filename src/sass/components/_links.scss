@@ -1,0 +1,45 @@
+﻿/* ### Variables ### */
+
+a,
+a[href],
+#bot a {
+    color: $link-color;
+    border: none;
+
+    &:hover, &:active, &:focus {
+        color: $link-hover-color;
+        border: none;
+    }
+}
+
+#top a {
+    color: $link-color;
+
+    &:hover, &:active, &:focus {
+        color: $link-hover-color;
+    }
+}
+
+#top a + a {
+    color: $brand-success;
+
+    &:hover, &:active, &:focus {
+        color: lighten($brand-success, 8%);
+    }
+}
+
+#top a + a + a {
+    color: $brand-danger;
+
+    &:hover, &:active, &:focus {
+        color: lighten($brand-danger, 8%);
+    }
+}
+
+.start span a + a + a {
+    color: $text-base-color;
+
+    &:hover, &:active, &:focus {
+        color: darken($text-light-color, 8%);
+    }
+}

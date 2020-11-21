@@ -1,0 +1,14 @@
+/* ==UserStyle==
+
+@name           Synonim - Full Dark
+@namespace      github.com/Prologh/synonim-full-dark
+@description    CSS theme for synonim.net. Get flat, dark grey feeling for night surfing.
+@author         prologh (https://github.com/Prologh)
+@homepageURL    https://github.com/Prologh/synonim-full-dark
+@supportURL     https://github.com/Prologh/synonim-full-dark/issues
+@updateURL      https://github.com/Prologh/synonim-full-dark/raw/master/dist/synonim-full-dark.user.styl
+@preprocessor   stylus
+@version        1.0.1
+@license        MIT
+
+==/UserStyle== */

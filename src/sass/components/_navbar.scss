@@ -9,16 +9,3 @@
 #top {
     background: lighten($navbar-bg, 5%);
 }
-
-/* Navbar links */
-
-#fx {
-
-    & a {
-        border: none;
-
-        &:hover {
-            border: none;
-        }
-    }
-}

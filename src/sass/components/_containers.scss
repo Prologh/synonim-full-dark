@@ -1,0 +1,22 @@
+﻿/* ### Containers ### */
+
+// Change background for all kind of containers.
+#mdef,
+#bot,
+#page section {
+    background: $box-bg;
+}
+
+#bot {
+    padding-top: 20px;
+}
+
+#page {
+    background: unset;
+    padding-top: 20px;
+
+    & section {
+        padding: 20px;
+        padding-top: 5px;
+    }
+}
