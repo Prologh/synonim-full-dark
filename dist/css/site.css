@@ -3,7 +3,8 @@
   /* ### Containers ### */
   #mdef,
   #bot,
-  #page section {
+  #page section,
+  main section {
     background: #1C1C1C;
   }
   #bot {
