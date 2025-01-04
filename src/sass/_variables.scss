@@ -1,4 +1,5 @@
-﻿/* ### Variables ### */
+@use "sass:color";
+/* ### Variables ### */
 
 // Colors
 $gray-base: #131313 !default;
@@ -27,33 +28,33 @@ $navbar-bg: $box-light-bg;
 
 // Global text color on `<body>`.
 $text-base-color: #909090 !default;
-$text-light-color: lighten($text-base-color, 30%);
-$text-dark-color: darken($text-base-color, 10%);
+$text-light-color: color.adjust($text-base-color, $lightness: 30%);
+$text-dark-color: color.adjust($text-base-color, $lightness: -10%);
 
 // Links color
-$link-color: lighten($brand-info, 10%);
-$link-hover-color: lighten($link-color, 15%);
+$link-color: color.adjust($brand-info, $lightness: 10%);
+$link-hover-color: color.adjust($link-color, $lightness: 15%);
 
 // Headers color
-$header-1-color: lighten($text-base-color, 40%);
-$header-2-color: lighten($text-base-color, 35%);
-$header-3-color: lighten($text-base-color, 30%);
-$header-4-color: lighten($text-base-color, 25%);
-$header-5-color: lighten($text-base-color, 15%);
-$header-6-color: lighten($text-base-color, 10%);
+$header-1-color: color.adjust($text-base-color, $lightness: 40%);
+$header-2-color: color.adjust($text-base-color, $lightness: 35%);
+$header-3-color: color.adjust($text-base-color, $lightness: 30%);
+$header-4-color: color.adjust($text-base-color, $lightness: 25%);
+$header-5-color: color.adjust($text-base-color, $lightness: 15%);
+$header-6-color: color.adjust($text-base-color, $lightness: 10%);
 
 $header-color-map:
-    1 lighten($text-base-color, 40%),
-    2 lighten($text-base-color, 35%),
-    3 lighten($text-base-color, 30%),
-    4 lighten($text-base-color, 25%),
-    5 lighten($text-base-color, 20%),
-    6 lighten($text-base-color, 15%);
+    1 color.adjust($text-base-color, $lightness: 40%),
+    2 color.adjust($text-base-color, $lightness: 35%),
+    3 color.adjust($text-base-color, $lightness: 30%),
+    4 color.adjust($text-base-color, $lightness: 25%),
+    5 color.adjust($text-base-color, $lightness: 20%),
+    6 color.adjust($text-base-color, $lightness: 15%);
 
 // Border colors
 $border-base-color: $gray;
-$border-light-color: lighten($border-base-color, 20%);
-$border-dark-color: darken($border-base-color, 20%);
+$border-light-color: color.adjust($border-base-color, $lightness: 20%);
+$border-dark-color: color.adjust($border-base-color, $lightness: -20%);
 
 // Border width
 $border-base-width: 1px;
@@ -62,9 +63,9 @@ $border-base-width: 1px;
 $border-base-style: solid;
 
 // Controls, inputs, textareas
-$control-base-color: lighten($text-base-color, 10%);
-$control-base-bg: lighten($box-light-bg, 5%);
+$control-base-color: color.adjust($text-base-color, $lightness: 10%);
+$control-base-bg: color.adjust($box-light-bg, $lightness: 5%);
 
 // Labels
-$label-base-color: lighten($text-base-color, 5%);
+$label-base-color: color.adjust($text-base-color, $lightness: 5%);
 $label-base-bg: $box-bg;

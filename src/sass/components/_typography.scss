@@ -1,7 +1,9 @@
-﻿/* ### Typography ### */
+@use "../variables";
+
+/* ### Typography ### */
 
 /* Headers */
-@each $header-prefix, $header-color in $header-color-map {
+@each $header-prefix, $header-color in variables.$header-color-map {
     h#{$header-prefix} {
         color: $header-color;
     }
@@ -14,5 +16,5 @@
 #minf p,
 p,
 #main span h3 {
-    color: $text-base-color;
+    color: variables.$text-base-color;
 }

@@ -1,7 +1,10 @@
-﻿/* ### Controls ### */
+@use "sass:color";
+@use "../variables";
+
+/* ### Controls ### */
 
 textarea, textarea {
-    border: 1px solid $border-base-color;
+    border: 1px solid variables.$border-base-color;
     min-height: 80px !important;
     height: auto;
     resize: vertical;
@@ -13,13 +16,13 @@ input[type=number],
 input[type=password],
 input[type=tel],
 textarea {
-    color: $control-base-color;
-    background: $control-base-bg;
+    color: variables.$control-base-color;
+    background: variables.$control-base-bg;
 }
 
 // Navbar search input
 #fx input[type=text] {
-    color: lighten($control-base-color, 8%);
-    background: lighten($control-base-bg, 5%);
-    border-color: $border-light-color;
+    color: color.adjust(variables.$control-base-color, $lightness: 8%);
+    background: color.adjust(variables.$control-base-bg, $lightness: 5%);
+    border-color: variables.$border-light-color;
 }

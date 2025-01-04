@@ -1,21 +1,22 @@
 ﻿// Import variables
-@import "_variables";
+@use "sass:meta";
+@use "_variables";
 
-@-moz-document regexp("https?:\/\/(www\.)?synonim\.net.*") {
+@document regexp("https?:\/\/(www\.)?synonim\.net.*") {
 
-    @import "components/_containers";
-    @import "components/_controls";
-    @import "components/_links";
-    @import "components/_navbar";
-    @import "components/_tables";
-    @import "components/_typography";
+    @include meta.load-css("components/_containers");
+    @include meta.load-css("components/_controls");
+    @include meta.load-css("components/_links");
+    @include meta.load-css("components/_navbar");
+    @include meta.load-css("components/_tables");
+    @include meta.load-css("components/_typography");
 
     html {
-        background: $box-bg;
+        background: variables.$box-bg;
     }
 
     body {
-        background: $body-bg;
-        color: $text-base-color;
+        background: variables.$body-bg;
+        color: variables.$text-base-color;
     }
 }

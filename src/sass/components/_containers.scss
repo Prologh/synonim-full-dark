@@ -1,11 +1,14 @@
-﻿/* ### Containers ### */
+@use "../variables";
+
+/* ### Containers ### */
 
 // Change background for all kind of containers.
 #mdef,
 #bot,
 #page section,
+main,
 main section {
-    background: $box-bg;
+    background: variables.$box-bg;
 }
 
 #bot {
@@ -20,4 +23,9 @@ main section {
         padding: 20px;
         padding-top: 5px;
     }
+}
+
+// Reset some weird width calculation
+main .page {
+    width: 100%;
 }

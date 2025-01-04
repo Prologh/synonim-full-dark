@@ -1,45 +1,48 @@
-﻿/* ### Variables ### */
+@use "sass:color";
+@use "../variables";
+
+/* ### Variables ### */
 
 a,
 a[href],
 #bot a {
-    color: $link-color;
+    color: variables.$link-color;
     border: none;
 
     &:hover, &:active, &:focus {
-        color: $link-hover-color;
+        color: variables.$link-hover-color;
         border: none;
     }
 }
 
 #top a {
-    color: $link-color;
+    color: variables.$link-color;
 
     &:hover, &:active, &:focus {
-        color: $link-hover-color;
+        color: variables.$link-hover-color;
     }
 }
 
 #top a + a {
-    color: $brand-success;
+    color: variables.$brand-success;
 
     &:hover, &:active, &:focus {
-        color: lighten($brand-success, 8%);
+        color: color.adjust(variables.$brand-success, $lightness: 8%);
     }
 }
 
 #top a + a + a {
-    color: $brand-danger;
+    color: variables.$brand-danger;
 
     &:hover, &:active, &:focus {
-        color: lighten($brand-danger, 8%);
+        color: color.adjust(variables.$brand-danger, $lightness: 8%);
     }
 }
 
 .start span a + a + a {
-    color: $text-base-color;
+    color: variables.$text-base-color;
 
     &:hover, &:active, &:focus {
-        color: darken($text-light-color, 8%);
+        color: color.adjust(variables.$text-light-color, $lightness: -8%);
     }
 }

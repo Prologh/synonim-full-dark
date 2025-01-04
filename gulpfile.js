@@ -8,10 +8,10 @@ var gulpCssMin = require('gulp-cssmin');
 var gulpDeleteLines = require('gulp-delete-lines');
 var gulpRename = require('gulp-rename');
 var gulpSass = require('gulp-sass');
-var nodeSass = require('node-sass');
+var nodeSass = require('sass-embedded');
 var rimraf = require('rimraf');
 
-gulpSass.compiler = nodeSass;
+gulpSass = gulpSass(nodeSass);
 
 const themeName = 'synonim-full-dark';
 const mainCssFileName = 'site';

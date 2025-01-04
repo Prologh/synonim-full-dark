@@ -1,11 +1,14 @@
-﻿/* ### Navbar ### */
+@use "sass:color";
+@use "../variables";
+
+/* ### Navbar ### */
 
 /* Main navbar*/
 #fx {
-    background-color: $navbar-bg;
+    background-color: variables.$navbar-bg;
 }
 
 /* Upper login bar, above navbar */
 #top {
-    background: lighten($navbar-bg, 5%);
+    background: color.adjust(variables.$navbar-bg, $lightness: 5%);
 }
