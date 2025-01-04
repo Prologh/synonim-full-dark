@@ -19,9 +19,11 @@
   /* ### Containers ### */
   #mdef,
   #bot,
+  #top,
   #page section,
   main,
-  main section {
+  main section,
+  noscript {
     background: #1C1C1C;
   }
   #bot {
@@ -46,14 +48,22 @@
     height: auto;
     resize: vertical;
   }
+  input[type=button],
+  input[type=submit],
   input[type=text],
-  input[type=email],
-  input[type=number],
   input[type=password],
-  input[type=tel],
-  textarea {
+  input[type=button],
+  input[type=submit],
+  textarea,
+  select,
+  #szukaj,
+  #fx input[type=text],
+  form label {
     color: rgb(169.5, 169.5, 169.5);
     background: rgb(51.75, 51.75, 51.75);
+  }
+  input:disabled {
+    background: #272727;
   }
   #fx input[type=text] {
     color: rgb(189.9, 189.9, 189.9);

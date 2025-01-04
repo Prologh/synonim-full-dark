@@ -5,9 +5,11 @@
 // Change background for all kind of containers.
 #mdef,
 #bot,
+#top,
 #page section,
 main,
-main section {
+main section,
+noscript {
     background: variables.$box-bg;
 }
 
